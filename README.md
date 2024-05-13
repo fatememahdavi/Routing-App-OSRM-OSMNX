@@ -20,7 +20,7 @@ This application provides a routing API for finding routes between origin and de
 ## Features
 - **Routing API**: The application provides a robust routing API that supports both OSRM and OSMnx backends.
 - **Location Selection**: Users can select origin and destination locations on a map using the simple Angular frontend.
-- **Location Conversion**: The app supports location-to-address and address-to-location conversions.
+- **Geocoding**: The app supports location-to-address and address-to-location conversions.
 - **Route Visualization**: The application displays detailed route steps with arrows to help users visualize their journey.
 
 ## Installation
