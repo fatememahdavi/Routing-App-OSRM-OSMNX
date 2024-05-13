@@ -45,6 +45,18 @@ To use the Routing Application, follow these steps:
 5. Use the simple Angular frontend to select origin and destination locations on the map.
 6. Choose the desired routing type (OSMnx or OSRM) and any additional options.
 7. Click on the "Calculate Route" button to generate the route and view the detailed steps with arrows.
+8. Access the API endpoints:
+    - `POST /routing/osmnx`
+      - Body parameters:
+        - `origin`: Origin coordinates (latitude, longitude)
+        - `destination`: Destination coordinates (latitude, longitude)
+    - `POST /routing/osrm`
+      - Body parameters:
+        - `origin`: Origin coordinates (latitude, longitude)
+        - `destination`: Destination coordinates (latitude, longitude)
+   - The API response will contain the calculated route, travel distance, and travel time.
+
+Please ensure that the OSRM backend is running and accessible when using the `osrm` routing type.
 
 ## Testing
 
