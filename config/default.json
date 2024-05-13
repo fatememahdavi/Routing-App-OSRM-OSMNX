@@ -1,0 +1,5 @@
+{
+  "port": 55000,
+  "frontBaseUrl": "http://localhost:4200",
+  "osrmUrl": "http://localhost:5000/route/v1/driving/{{lng}},{{lat}};{{destinationLng}},{{destinationLat}}?steps=true&overview=full"
+}
