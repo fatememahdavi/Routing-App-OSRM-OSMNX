@@ -32,7 +32,7 @@ Before running the Routing Application, ensure that you have the following prere
 
 To install the application, follow these steps:
 1. Clone the repository to your local machine.
-2. Download the required OSM data for use with OSMnx.
+2. Download the required OSM data for use with OSRM and OSMNX.
 3. Install the necessary dependencies by running `npm install`.
 4. Install the necessary Python dependencies by running `pip install -r requirements.txt`.
 
